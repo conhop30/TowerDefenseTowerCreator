@@ -2,6 +2,7 @@
 {
     public class Program
     {
+        // Driver of the program.
         static void Main(string[] args)
         {
             // Declare variables.
@@ -13,7 +14,7 @@
             Tower completedTower = data.generateTower();
 
             // Display the new tower.
-            display.displayTower();
+            display.displayTower(completedTower);
 
             return;
         }
